@@ -25,7 +25,7 @@ export default function DeleteItemAlert({ isOpen, onClose, onDelete, type }) {
         <AlertDialogBody>
           Are you sure?{" "}
           {type === "folder" && "All notes inside this folder will be deleted."}{" "}
-          This action can't be undone.
+          This action cannot be undone.
         </AlertDialogBody>
         <AlertDialogFooter display="flex" gap={2}>
           <Button variant="ghost" onClick={onClose}>
