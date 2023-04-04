@@ -1,0 +1,36 @@
+.markdown > * {
+  all: revert;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  overflow-wrap: anywhere;
+  scroll-behavior: auto;
+}
+
+.markdown ul,
+.markdown ol {
+  padding-left: 3rem;
+}
+
+.markdown * {
+  font-family: arial;
+}
+
+.markdown pre {
+  background-color: grey;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+}
+
+.markdown code {
+  font-family: "monospace";
+}
+
+.markdown a {
+  color: cornflowerblue;
+}
+
+.markdown a:hover {
+  text-decoration: underline;
+}
