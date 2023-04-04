@@ -1,38 +1,33 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Notes Editor
+A simple React application that allows you to quickly write up notes and edit notes using GitHub-flavoured Markdown. :pencil2:
 
-## Getting Started
+The project includes some personalisation features including a light/dark mode, changing the editor font family and font size, and toggling the visibility of the different parts of the program.
 
-First, run the development server:
+[View this project on GitHub Pages](https://sa9102.github.io/Notes-Editor/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+:warning: ***IMPORTANT***: This project is still in development, and so you may encounter some bugs and crashes, such as trying to type in the editor right after deleting a note. The application has also not yet been designed to work with screens less than 1400px in length.
+
+
+## Installation
+Simply clone the project and run either of the following commands in the terminal:
+
+npm:
+```
+npm install
+```
+yarn:
+```
+yarn install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Libraries/Frameworks
+- [React](https://react.dev/)
+- [Next.js](https://nextjs.org/)
+- [Chakra UI](https://chakra-ui.com/)
+- [Immer](https://immerjs.github.io/immer/)
+- [react-markdown](https://github.com/remarkjs/react-markdown)
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Update Log
+### 04/04/23
+Repository created and first commit.
