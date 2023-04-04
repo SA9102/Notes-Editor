@@ -1,5 +1,4 @@
 {
-  "homepage": "http://SA9102.github.io/Notes-Editor",
   "name": "notes-app",
   "version": "0.1.0",
   "private": true,
@@ -7,9 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "lint": "next lint"
   },
   "dependencies": {
     "@chakra-ui/icons": "^2.0.17",
@@ -26,8 +23,5 @@
     "react-markdown": "^8.0.6",
     "react-syntax-highlighter": "^15.5.0",
     "remark-gfm": "^3.0.1"
-  },
-  "devDependencies": {
-    "gh-pages": "^5.0.0"
   }
 }
