@@ -3,6 +3,8 @@
 
 The project includes some personalisation features including a light/dark mode, changing the editor font family and font size, and toggling the visibility of the different parts of the program.
 
+This project is purely front-end, and so notes are NOT saved locally or remotely.
+
 [View this project on GitHub Pages](https://sa9102.github.io/Notes-Editor/)
 
 :warning: ***IMPORTANT***: This project is still in development, and so you may encounter some bugs and crashes, such as trying to type in the editor right after deleting a note. The application has also not yet been designed to work properly with screens less than 1400px in length.
