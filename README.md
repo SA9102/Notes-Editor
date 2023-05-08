@@ -10,16 +10,18 @@ The project includes some personalisation features including a light/dark mode, 
 ![Sample of the project. On the left side of the screen, there are tabs containing folders and notes. In the centre, there is the markdown editor, and on the right, the result of the parsed markdown is displayed. There are also some customisation settings at the top.](https://github.com/SA9102/Notes-Editor/blob/main/assets/Preview.png)
 
 
-## Installation
-Simply clone the project, then run either of the following commands in the terminal to install the dependencies:
+## Quickly local setup
+To quickly get this project running locally on your machine, follow these steps:
 
-npm:
+1. Clone the repository
+2. Move into the repository's root directory
+3. Install the dependencies
+4. Start up the project
 ```
-npm install
-```
-yarn:
-```
-yarn install
+git clone https://github.com/SA9102/Notes-Editor.git
+cd Notes-Editor
+npm i
+npm start
 ```
 
 ## Libraries/Frameworks
